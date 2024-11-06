@@ -1,0 +1,57 @@
+body {
+    background-color: #c1dcdc;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos para a secção */
+section {
+    padding: 120px 80px;
+}
+
+/* Estilos para o cabeçalho */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 50px;
+}
+
+/* Estilos para o label do formulário */
+label {
+    font-size: 18px;
+    font-weight: 500; /* Medium weight */
+}
+
+/* Estilos para o input do formulário */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Estilos para o placeholder */
+input::placeholder,
+textarea::placeholder {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #808080;
+}
+
+/* Estilos para o botão do formulário */
+button, 
+input[type="submit"] {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 18px 36px;
+    cursor: pointer;
+    margin-top: 20px;
+}
